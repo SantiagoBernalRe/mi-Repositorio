@@ -1,0 +1,49 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+header{
+    text-align: center;
+    background-color: rgb(32, 128, 48);
+    min-height: 50px;
+    max-height: 150px;
+}
+body{
+    padding: 10px;
+}
+.caja{
+    padding: left 300px;    
+}
+
+.principal{
+    display: block;    
+    height: 250px;    
+    margin: 30px;
+    background-color: blue;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 18px;
+    margin-right: 10px;        
+}
+.cuadros{
+    background-color: blueviolet;
+}
+.barra{
+    background-color: aquamarine;
+    float: left;
+    height: 250px;
+    height: 250px;
+    top: 0px;
+    left: 250px;
+}
+.cuadros{
+    float: right;
+}
+
+footer{
+    margin: 10px;
+     padding: 10px;
+     height: 30px;
+    text-align: center;
+    background-color: rgb(32, 128, 48);
+}

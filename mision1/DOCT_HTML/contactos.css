@@ -1,0 +1,19 @@
+h1{
+    color: rgb(3, 243, 39);
+    background-color: rgba(35, 43, 49, 0.052);
+    text-align: center;
+}
+h2{
+    color: rgb(238, 8, 8);
+    text-align: center;
+}
+body{background-color: rgb(136, 198, 133);}
+form{
+}
+label{text-align: left;
+    text-justify: auto;
+    
+}
+input{text-align: center;
+    text-justify: auto;
+}

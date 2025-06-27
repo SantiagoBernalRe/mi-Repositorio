@@ -1,0 +1,37 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{   
+    padding: 40px;
+    
+}
+
+.caja{
+    display: block;/* aqui estamos dividiendo la pantalla en bloques */    
+    width: 250px;
+    height: 250px;
+    background-color: aqua;
+    border: 5px solid red;
+    border-radius: 25px;/* este esta cambiando los contornos de los cuadros */
+    margin: 15px;
+    margin-top: 15%;
+    margin-bottom: 24px;
+    margin-left: 18px;
+    margin-right: 10px;
+    padding: 25px;
+    float: left;/* para que este funcione el display debe estar en block */
+    box-shadow: 10px 15px 10px gray;/* esta le pone sombra a los cuadros */
+}
+.caja p{
+    text-align: center;/* este centro el texto de manera horizontal */
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 22px;/* este me engroso el tamaño de la letra */
+    line-height: 235px;/*este me centro el texto en la mitad del cuadro, ya no esta pegado a la aprte superior*/
+    text-shadow: 5px 5px 5px yellow;/* le pone sombra al texto */
+}
+.clearfix{ 
+    float: none;
+    clear: both;
+}

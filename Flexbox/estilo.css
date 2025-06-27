@@ -1,0 +1,33 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+#layout{
+    display:flex;
+    border: 3px solid rgb(231, 4, 4);
+    padding: 5px;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: ;    
+}
+.caja{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    padding: 20px;
+    border: 4px solid;
+    margin: 10px;
+}
+.red{
+    background: red;
+}
+.green{
+    background: green;
+}
+.orange{
+    background: orange;
+}
+.blue{
+    background: blue;
+}

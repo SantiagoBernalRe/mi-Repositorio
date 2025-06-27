@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario</title>
+</head>
+<body>
+    <h1>FORMULARIO</h1>
+    <form action="" method="post">
+        <fieldset>
+            <legend>Datos personales</legend>
+            <label for="nombres">Ingrese nombres</label>
+            <input type="text" name="nombres" placeholder="ingrese un nombre" size="30">
+            <br>
+            <label for="email">Ingrese el E-mail</label>
+            <input type="email" name="email" placeholder="ingresa el E-mail" size="25">
+            <br>
+            <label for="sexo">Masculino</label>
+            <input type="checkbox" name="sexo" id=""><br>
+            <input type="checkbox" name="f" id="">Femenino
+            <br>
+            <label for="ecivil">Estado civil</label><br>
+            <input type="radio" name="ecivil" value="1">soltero
+            <input type="radio" name="ecivil" value="2">casado
+            <input type="radio" name="ecivil" value="3">union libre
+            <input type="radio" name="ecivil" value="4">separado
+            <input type="radio" name="ecivil" value="5">viud@
+            <br>
+            <label for="nacionalidad">Selecione su nacionalidad</label><br>
+            <select name="nacionalidad" id="">
+                <option value="1">Argentina</option>
+                <option value="2">Paraguay</option>
+                <option value="3">Colombia</option>
+                <option value="4">Chile</option>
+                <option value="5">Ecuador</option>
+                <option value="6">Peru</option>
+                <option value="7">Bolivia</option>
+                <option value="8">Brazil</option>
+            </select>
+        </fieldset>
+        <fieldset>
+            <legend>Comentarios</legend>
+            <textarea name="Comentarios" id="" rows="10" cols="10"></textarea>
+        </fieldset>
+        <fieldset>
+            <legend>Cointraseña</legend>
+            <label for="pass">Contraseña</label>
+            <input type="password" name="pass">
+        </fieldset>
+        <fieldset>
+            <input type="submit" value="Enviar">
+            <input type="submit" value="Consulta">
+        </fieldset>
+    </form>
+</body>
+</html>
